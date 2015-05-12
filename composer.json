@@ -1,0 +1,20 @@
+{
+    "name": "daemonalchemist/atp-acl",
+    "description": "Access control list module for the ATP framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Wittrock",
+            "email": "andy@wittrock.us"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "ATPAcl": "src"
+        }
+    },
+    "require": {
+		"daemonalchemist/atp-core": "dev-master",
+		"daemonalchemist/atp-user": "dev-master"
+    }
+}
